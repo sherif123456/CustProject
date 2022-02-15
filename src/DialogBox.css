@@ -1,0 +1,65 @@
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content{
+    width: 600px;
+    height: 580px;
+    background-color: #fff;
+}
+
+.modal-header{
+    display: flex;
+    background-color: lightskyblue;
+    text-align: left;
+    height: 60px;
+}
+
+.modal-footer{
+    display: flex;
+    background-color:lightgray;
+    height: 60px;
+}
+
+.btn-save{
+    position: relative;
+   right: 370px;
+   top: -0.6rem;
+}
+
+.btn-cancel{
+    position: relative;
+    right: 350px;
+    top: -0.6rem;
+}
+
+.modal-header h4{
+    display: inline;
+}
+
+.modal-title{
+    margin: 0;
+    padding: 5px;
+    flex: 1;
+}
+.modal-header .button{
+    border: 0;
+    background-color: lightskyblue;
+    width: 15px;
+    padding-right: 18px;
+    padding-left: 15px;
+    text-align: center;
+}
+.modal-body {
+    padding: 10px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
