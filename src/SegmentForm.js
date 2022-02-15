@@ -29,11 +29,7 @@ function SegmentForm(props){
        
 //     ]);
 //    }
- 
-const handlsubmit = (e) =>{
-    e.preventDefault();
-    const jsn = { segmentName, }
-}
+
 
 
     const addNewSchema = function(){
